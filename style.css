@@ -1,0 +1,575 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.nav{
+    background-color: 	#0b355a !important;
+}
+.nav-left{
+    padding-right:600px;
+    justify-content: left;
+    position: absolute;
+}
+
+.nav-left h1 {
+    color: white;
+    
+    display: inline;
+    border-bottom:solid red 7px;
+    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* border-radius:15px; */
+
+}
+
+
+.logoline{
+    position:relative;
+    /* background: #000; */
+    font-size: 2em;
+    color: red;
+    border-bottom:solid white 7px;
+    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.301);
+    justify-content: center;
+    height: 90px;
+}
+.logo{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding-top: 2px;
+    float: left;
+    position: absolute;
+
+}
+#mainMenu {
+	margin:10px;
+	width:200%;
+    height: 50px;
+    padding: 7px;
+    
+	font-family: sans-serif;
+    
+     padding-left: 10px;
+    
+    
+}
+
+
+#mainMenu li {
+
+	width:120px;
+    display: block;
+	float:left;
+    border-radius: 55px !important;
+	border:1px solid #000;
+    margin-left: 40px;
+    background-color: rgb(161, 76, 76);
+    
+} 
+
+#mainMenu a {
+    
+	display: block;
+	padding:5px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#009;
+    cursor: pointer;
+    text-align: center; 
+    border-radius: 55px !important;
+
+}
+
+
+.manulist{
+    display: none;
+}		
+
+/* this is hidden in laptop/pc screen from here to*/
+
+/* 2  2
+     @
+    9999
+    secret code
+    hello Hacker
+    Nice to meet you!
+
+    */
+    
+
+
+  
+  /* Add a color to the active/current link */
+
+.manubar{
+   
+    width: 40px;
+    height: 40px;
+   
+    overflow: hidden;
+    display: none;
+
+}
+.manu-bar:hover{
+    border: none;
+}
+
+.poster img{
+    position: relative;
+    padding: 0px 10px 10px 0px;
+    width: 1500px;
+    height: 600px;
+}
+
+.img{
+    margin: 0px;
+    position:relative;
+    padding-left: 0px;
+    width: 1100px;
+    height:400px;
+    overflow:none;
+    border-radius: 20px;
+}
+
+/* clinic photoes */
+.clinic-container{
+    position: static;
+    
+    display: inline-table;
+    width: 100%;
+    height: 450px;
+    /* overflow: hidden; */
+/* background-color: yellow; */
+
+}
+/* here start Introducation */
+.intro{
+    color: white;
+    position: absolute;
+    margin-top: -504px;
+    padding-left: 150px;
+    max-width: 700px;
+    height: 325px;
+    display: flow-root;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  
+    margin-bottom: 60px;
+    text-align: center;
+
+    opacity: 1;
+}
+.info{
+    display: inline-table;
+    position:relative;
+    padding-left:0px;
+    
+    padding-top: 15px;   
+    
+
+}
+/* Call & appopintment button */
+.btn{
+    position: static !important;
+    margin-left: 0px;
+    
+}
+button a{
+    text-decoration: none !important;
+    color: white;
+
+}
+.btn-call{
+    width: 150px;
+    height: 40px;
+    border: none !important;
+    border-radius: 9px;
+    background-color: #e97060;
+    color: white;
+    display: list-item;
+    cursor: pointer;
+    transition: width 1s, height 2s, transform .5s;
+}
+.btn-call:hover{
+   width: 165px;
+   height: 40px;
+    /* transform:translate(1s,30px); */
+  /* transform: rotate(360deg); */
+
+}
+
+
+.virtual{
+ display: block;
+ position: relative;
+ width: 100%;
+ height: 325px;
+ background-color: white    ;   
+ text-align: center;   
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ /* margin-left: auto; */
+ margin-bottom: 60px;
+ font-family: lustina,serif ;
+ padding-top: 10px;
+}
+
+
+
+
+.paragraph{
+     position: relative;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0px;
+    text-align: center !important;
+    background-color: rgb(129, 43, 43);
+    
+
+
+}
+ /* here start contact us area  */
+.contact-us{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    position: relative;
+    background-color: #F8F9FB;
+    height: 325px;
+    width: 1127px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 250px;
+    margin-bottom: 150px; /* here temp margin bottm*/ 
+   }
+#contactus{
+   display: inline;
+    border-bottom:solid #f47160 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* border-radius:15px; */
+    text-align: center;
+}
+/* phone */
+.mobileno{
+    position:absolute;
+    
+    display: grid;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.email{
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 50%;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 50px;
+
+}
+
+span{
+    /* background-color: #e97060; */
+    position:relative;
+    display: inline-table;
+    padding-bottom: 20px;
+}
+span div img{
+    /* background-color: #f1e59e !Important; */
+    float: left;
+}
+span div h2{
+    float: left;
+    display: flex;
+    padding-top: 8px;
+    
+}
+.wtsp-logo {
+
+    /* position: absolute; */
+
+    width: 65px;
+    height: 60px;
+
+ 
+   
+
+}
+.call-img{
+    padding-left: 5px;
+    width: 45px;
+    height: 40px;
+    background-color: aqua;
+    
+}
+
+
+/* Service & Why choose Option */
+.services-container{
+
+    width: 100%;
+    background-color: #5081F5;
+    opacity: 2;
+    color: white;
+    display:inline-flex;
+    justify-content: space-evenly;
+    
+}
+.header.header2{
+    font-size: 25px;
+    
+}
+.seprate-line{
+    flex-grow: 2;
+    border:0px solid #e7e6e6; 
+    height: auto;
+}
+
+/* stikcy note contact us */
+
+/* sUBMIT fORM sTART */
+.main-form{
+    padding-left: 0px;
+    position: relative;
+    /* background: #000; */
+    background-color: rgb(207, 201, 201);
+}
+
+
+*:focus {
+    outline: none;
+  }
+.form h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    margin-left:15px;
+  }
+
+.form input{
+    border-radius: 7px;
+    text-align: center;
+    margin: 11px;
+    width: 264px;
+    background-color: #fff;
+    
+}
+form{
+    padding-left: 80px;
+    background-color: #fff;
+}
+.grid-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* max-width: 700px; */
+    width: 100%;
+    /* background-color:rgb(37, 116, 99); */
+   
+    margin: 0px;
+    padding-left: 0px;
+
+}
+.form{
+    position:relative;
+    display: block;
+    padding-top: 25px;
+    /* padding-left: 5px; */
+    /* background-color: #e97060; */
+    width: 450px;
+    
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    
+
+}
+
+.inpform{
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none; 
+    border-radius: 0px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 0px;
+    display: block;
+    height: 35px;
+}
+
+.btn-smt{
+    background-color: #5081F5;
+    color: white;
+    border-radius: 5px;
+    width: 263px;
+    height: 30px;
+    border: none;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    padding: 3px;
+}
+.text{
+    text-align: center;
+    
+}
+.address{
+    display:block;
+    position:relative;
+    padding-top: 0px;
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+    background-color:white;   
+    align-items: center;
+    font-size: 25px;
+    padding-top: 10px;
+    border-radius: 10px;
+
+    
+}
+.address button{
+    border-radius: 15px;
+    background-color:#5081F5;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+}
+.address button:hover{
+    color: white;
+    width: 160px;
+    background-color: yellow;
+}
+.gl-map{
+    width: 600px;
+    height: 50px;
+    /* background-color: rgb(161, 26, 26); */
+    display: block;
+    padding-top: 10px;
+    padding-left:220px;
+    
+
+}
+   /* here start footer area */
+footer table{
+    margin-bottom: 0px;
+}   
+.footer{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-flex;
+    padding-top:50px;
+    /* text-align: center; */
+ 
+    width: 100%;
+    background-color:#232F3E;
+    color: white;
+    
+}
+
+.social{
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+.social img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+
+}
+
+
+
+/* Page will be responsive */
+@media screen and (max-width:700px) {
+    
+    .col-2{
+     width: 600px;
+     background:linear-gradient(#ff54a2,#ff575a);
+     position:relative;
+     top: 75px;
+     
+     z-index: 2;
+     height: 200px;
+     color: white;
+        
+    }
+    /* .mainMenu{
+        display: inline-block !important;
+        position:absolute;
+
+    } */
+    .col-2 ul li a{
+        position: absolute;
+        display:block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        border:none;
+        font-size: 1em;
+
+
+    }
+    
+    .manubar{
+        display: block;
+        position: fixed;
+    }
+    .manulist{
+        overflow: hidden;
+        
+        transition: 0.5s;
+    }
+    .virtual{
+        position: relative;
+        display: grid;
+        width: 100%;
+        height: 100%;
+
+
+    }
+    .virtual p{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .Virtual-img{
+        display:grid;
+        z-index: 1;
+
+    }
+    .contact-us{
+        display: block;
+        margin-left: 0px;
+        
+    }
+    .mobileno{
+        display: block;
+    }
+}
